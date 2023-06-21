@@ -11,20 +11,20 @@ int main(void)
 	int n;
 
 	p = 'a';
-	n = '0';
-
-	while
-		(p <= 'f')
-		{
-			putchar(p);
-			p++;
-		}
+	n = 0;
 
 	while
 		(n < 10)
 		{
 			putchar(n + '0');
 			n++;
+		}
+
+	while
+		(p <= 'f')
+		{
+			putchar(p);
+			p++;
 		}
 	putchar ('\n');
 	return (0);
