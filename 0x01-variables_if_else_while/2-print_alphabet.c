@@ -10,6 +10,7 @@ int main(void)
 	char p;
 	p = 'a';
 
+
 	while
 		(p <= 'z')
 
