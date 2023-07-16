@@ -9,7 +9,7 @@
 
 char *_strdup(char *str)
 {
-	char *aaa;
+	char *s;
 	int i, n = 0;
 
 	if (str == NULL)
@@ -21,15 +21,15 @@ char *_strdup(char *str)
 	while (str[i] != '\0')
 		i++;
 
-	aaa = malloc(sizeof(char) * (i = 1);
+	s = malloc(sizeof(char) * (i = 1));
 
-		if (aaa == NULL)
+		if (s == NULL)
 
 			return (NULL);
 
 		for (n = 0; str[n]; n++)
 
-			aaa[n] = str[n];
+			s[n] = str[n];
 
-			return (aaa);			
+		return (s);			
 }
