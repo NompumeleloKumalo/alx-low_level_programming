@@ -21,13 +21,13 @@ char *_strdup(char *str)
 	while (str[i] != '\0')
 		i++;
 
-	s = malloc(sizeof(char) * (i = 1));
+	s = malloc(sizeof(char) * (i + 1));
 
 		if (s == NULL)
 
 			return (NULL);
 
-		for (n = 0; str[n]; n++)
+		for (n = 0; str[n] != '\0'; n++)
 
 			s[n] = str[n];
 
